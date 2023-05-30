@@ -10,6 +10,6 @@ class WelcomeController extends Controller
     private static $bypass_url = [];
 
     public function __construct() {
-        
+        echo "hello";
     }
 }
